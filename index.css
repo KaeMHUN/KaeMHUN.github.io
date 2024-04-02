@@ -7,7 +7,7 @@ body {
     line-height: 1.1875;
     margin: 0;
     padding: 0;
-    background-image: url('images/bg.jpg');
+    background-image: url('https://raw.githubusercontent.com/KaeMHUN/KaeMHUN.github.io/main/images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
