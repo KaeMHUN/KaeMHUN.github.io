@@ -3,19 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
     <title>Kaqkk Clock Setup</title>
-    <link href="setup.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Kaqkk System Clock </h1><br>
-    <h2>Please input Wifi information!</h2>
-    <form>
+    <div id="center">
+    <div id="BigFont">
+        <h1>Kaqkk System Clock </h1><br>
+        <h2>Please input Wifi information!</h2>
+    </div>
+    
+    <form id="FormBox">
         <label for="wifi">Wifi name:</label><br>
         <input type="text" id="wifi" name="wifi"><br>
         <label for="password">Password:</label><br>
         <input type="text" id="password" name="password"><br>
+        
         <input type="submit" value="Connect!">
     </form>
+        </div>
 </body>
 </html>
