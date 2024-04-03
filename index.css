@@ -3,7 +3,7 @@ body {
     color: #000000;
     font-family: Arial;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 0.7vw;
     line-height: 1.1875;
     margin: 0;
     padding: 0;
@@ -12,32 +12,33 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+#center {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+#BigFont
+{
+    
+   
+}
 
-#wb_Heading1
+#FormBox {
+    font-size: 0.7vw;
+    
+}
+#Heading1 
 {
+    text-align: center;
+    height: auto;
+    margin: 0;
+    width: 80vw;
+}
 
-   text-align: center;
-}
-#Heading1
-{
-   height: 100%;
-   margin: 0;
-   width: 100%;
-}
-#HorizontalLine1
-{
-   border-color: #F8F8F8;
-   border-style: solid;
-   border-bottom-width: 5px;
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-   height: 0 !important;
-   line-height: 0 !important;
-   margin: 0;
-   padding: 0;
-}
-#wb_Form1
+#Form1
 {
    background-color: #F8F9FA;
    background-image: none;
@@ -147,4 +148,9 @@ body {
 #Button1:focus
 {
    outline: 0;
+}
+
+.Wifi
+{
+    background-color:rgba(102,175,233,0.60);
 }
